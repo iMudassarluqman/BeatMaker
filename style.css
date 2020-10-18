@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: monospace;
+  background-color: #222831;
+}
+.container {
+  height: 95vh;
+  width: 99%;
+  margin: 1rem auto;
+}
+.keys {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+}
+.key {
+  border: 2px solid whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* padding: 0.8rem 2.5rem; */
+  width: 10%;
+  height: 7%;
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+.playing {
+  width: 100%;
+  text-align: left;
+  padding-left: 1rem;
+  background-color: #fafafa;
+  color: #222831;
+}
+
+p {
+  padding: 0.2rem 0;
+}
